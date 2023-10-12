@@ -1,2 +1,8 @@
 #!/bin/bash
-echo "Best School\n" > "\*\\'"Best\ School"\'\\*$\?\*\*\*\*\*:)"
+
+file_name='*\\'"Best School"'\\*$?*****:)'
+file_content="Best School"
+
+echo -e "$file_content" > "$file_name"
+
+echo -e "\n" >> "$file_name"
